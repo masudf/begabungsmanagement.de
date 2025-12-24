@@ -5,12 +5,7 @@ const newsData = [
         "text": "Das ist ein Testeintrag.",
         "bild": ""
     },
-    {
-        "datum": "24.12.2025",
-        "titel": "Neuer Vortrag: Resilienz bei Kindern stärken",
-        "text": "Im Frühjahr 2025 plane ich eine neue Vortragsreihe zum Thema 'Resilienz im Familienalltag'. Weitere Details zu Terminen und Anmeldung folgen in Kürze hier.",
-        "bild": ""
-    },
+        // Entry removed
     {
         "datum": "24.12.2025",
         "titel": "Frohe Weihnachten & Ein gutes neues Jahr",
