@@ -38,6 +38,32 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(section);
     });
 
+    // Scroll Spy for Navigation Highlighting
+    const sections = document.querySelectorAll('section[id]');
+    
+    function scrollSpy() {
+        const scrollY = window.pageYOffset;
+        
+        sections.forEach(current => {
+            const sectionHeight = current.offsetHeight;
+            const sectionTop = current.offsetTop - 100; // Offset for sticky header
+            const sectionId = current.getAttribute('id');
+            const navLink = document.querySelector(`.main-nav a[href*="${sectionId}"]`);
+            
+            if (navLink) {
+                if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+                    navLink.classList.add('active');
+                } else {
+                    navLink.classList.remove('active');
+                }
+            }
+        });
+    }
+
+    window.addEventListener('scroll', scrollSpy);
+    // Initial call to set active state on load
+    scrollSpy();
+
     // Email Obfuscation Protection
     // Assemble email: brandenstein [at] posteo.de
     const user = 'brandenstein';

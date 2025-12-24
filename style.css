@@ -140,7 +140,8 @@ ul {
     font-size: 0.95rem;
 }
 
-.main-nav a:hover {
+.main-nav a:hover,
+.main-nav a.active {
     color: var(--primary-color);
 }
 
