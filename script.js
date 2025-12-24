@@ -64,6 +64,57 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial call to set active state on load
     scrollSpy();
 
+    // Fetch and render News (Aktuelles)
+    function loadNews() {
+        const newsContainer = document.getElementById('news-container');
+        if (!newsContainer) return;
+
+        try {
+            // Check if newsData is defined (from aktuelles.js)
+            if (typeof newsData === 'undefined') {
+                throw new Error('News-Daten konnten nicht gefunden werden.');
+            }
+            
+            if (newsData.length === 0) {
+                newsContainer.innerHTML = '<p class="loading-text">Aktuell gibt es keine Neuigkeiten.</p>';
+                return;
+            }
+
+            newsContainer.innerHTML = ''; // Clear loading text
+
+            newsData.forEach(item => {
+                const card = document.createElement('article');
+                card.className = 'news-card fade-in';
+                
+                let imageHtml = '';
+                if (item.bild) {
+                    imageHtml = `<img src="${item.bild}" alt="${item.titel}" class="news-image">`;
+                }
+
+                card.innerHTML = `
+                    ${imageHtml}
+                    <div class="news-content">
+                        <span class="news-date">${item.datum}</span>
+                        <h3>${item.titel}</h3>
+                        <p class="news-text">${item.text}</p>
+                    </div>
+                `;
+                newsContainer.appendChild(card);
+                
+                // Observe new card for fade-in
+                if (typeof observer !== 'undefined') {
+                    observer.observe(card);
+                }
+            });
+
+        } catch (error) {
+            console.error('Error loading news:', error);
+            newsContainer.innerHTML = '<p class="loading-text">Aktuelles konnte nicht geladen werden. Bitte versuchen Sie es später erneut.</p>';
+        }
+    }
+
+    loadNews();
+
     // Email Obfuscation Protection
     // Assemble email: brandenstein [at] posteo.de
     const user = 'brandenstein';

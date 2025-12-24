@@ -1,0 +1,28 @@
+{
+    "footerMenu": [
+        {
+            "id": 1,
+            "label": "Impressum",
+            "url": "impressum.html",
+            "title": "Impressum",
+            "target": "",
+            "rel": "",
+            "page": 1,
+            "post": null,
+            "tag": null,
+            "children": []
+        },
+        {
+            "id": 2,
+            "label": "Datenschutz",
+            "url": "datenschutz.html",
+            "title": "Datenschutz",
+            "target": "",
+            "rel": "",
+            "page": 2,
+            "post": null,
+            "tag": null,
+            "children": []
+        }
+    ]
+}

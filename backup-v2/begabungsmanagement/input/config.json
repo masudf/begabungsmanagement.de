@@ -1,0 +1,22 @@
+{
+    "domain": "www.begabungsmanagement.de",
+    "baseUrl": "",
+    "name": "Maria Brandenstein",
+    "description": "Pädagogische Praxis für Begabungsmanagement & Resilienz",
+    "theme": "begabungsmanagement-theme",
+    "language": "de",
+    "dateFormat": "D MMMM YYYY",
+    "timeFormat": "H:mm",
+    "postListMode": "recent",
+    "postsPerPage": 10,
+    "copyrightText": "2025 Maria Brandenstein",
+    "frontPageMode": "post",
+    "frontPageStatic": "",
+    "frontPagePost": "",
+    "frontPageTag": "",
+    "ignoreOtherStaticFiles": false,
+    "themeConfig": {
+        "slogan": "Begabung braucht Begleitung",
+        "heroIntro": "Sie haben Fragen zu Begabung, Hochbegabung, Förderung, Lernlust oder Resilienz? Ich unterstütze Sie dabei, Stärken zu erkennen, Begabungen zu managen und innere Stärke zu entwickeln."
+    }
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Impressum",
+        "slug": "impressum",
+        "content": "<p>Angaben gemäß § 5 TMG:</p><h2>Betreiberin & Verantwortlich für den Inhalt:</h2><p><strong>Maria Brandenstein</strong> (Einzelunternehmerin)<br>Pädagogische Praxis für Begabungsmanagement & Resilienz<br>Erziehungswissenschaftlerin M.A.</p><h2>Praxisanschrift:</h2><p>Provinostraße 52<br>Martinipark<br>V1_3 Untergeschoss Archiv 5<br>86153 Augsburg</p><h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV (V.i.S.d.P.):</h2><p><strong>Maria Brandenstein</strong><br>Provinostraße 52<br>Martinipark<br>V1_3 Untergeschoss Archiv 5<br>86153 Augsburg</p><h2>Kontakt:</h2><p>Telefon: +49 152 31868971 oder +49 821 3287711<br>E-Mail: brandenstein@posteo.de<br>Internet: www.begabungsmanagement.de</p><h2>Urheberrechtliche Hinweise:</h2><p>Logo: Elena Brandenstein<br>Fotos: Manuela Beck, Elena Brandenstein, Claudia Knieß, Leo Schenk, Tom Hecht</p><h2>Haftungsausschluss:</h2><p>Ich übernehme keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.</p>",
+        "author": 1,
+        "date": "2025-12-24T14:00:00.000Z",
+        "modified": "2025-12-24T14:00:00.000Z",
+        "status": "published",
+        "mainTag": null,
+        "isPage": true
+    },
+    {
+        "id": 2,
+        "title": "Datenschutz",
+        "slug": "datenschutz",
+        "content": "<h2>1. Datenschutz auf einen Blick</h2><p>Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können.</p><h2>2. Datenerfassung auf unserer Website</h2><p>Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten (Maria Brandenstein, brandenstein@posteo.de) können Sie dem Impressum dieser Website entnehmen.</p><p>Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben oder per E-Mail senden.</p><h2>3. Hosting</h2><p>Wir hosten die Inhalte unserer Website bei folgendem Anbieter:</p><p><strong>GitHub Pages</strong><br>Anbieter ist die GitHub Inc., 88 Colin P. Kelly Jr. St, San Francisco, CA 94107, USA (nachfolgend „GitHub“).</p><p>Wenn Sie unsere Website besuchen, erfasst GitHub u. a. Ihre IP-Adresse und speichert diese in Logfiles. Die Verwendung von GitHub Pages erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir haben ein berechtigtes Interesse an einer möglichst zuverlässigen Darstellung unserer Website.</p><p>Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Details finden Sie hier: <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub Privacy Statement</a>.</p><h2>4. Ihre Rechte</h2><p>Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen.</p><h2>5. Analyse-Tools und Tools von Drittanbietern</h2><p>Beim Besuch dieser Website kann Ihr Surf-Verhalten statistisch ausgewertet werden. Dies geschieht vor allem mit Cookies und mit sogenannten Analyseprogrammen.</p><p><em>Hinweis: Diese Website ist eine statische HTML-Seite und verwendet keine eigenen Tracking-Cookies oder Analyse-Dienste wie Google Analytics.</em></p>",
+        "author": 1,
+        "date": "2025-12-24T14:00:00.000Z",
+        "modified": "2025-12-24T14:00:00.000Z",
+        "status": "published",
+        "mainTag": null,
+        "isPage": true
+    }
+]
